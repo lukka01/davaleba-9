@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;   
+}
+main{
+
+    width: 100%;
+    height: auto;
+    background-image: url(../images/bg.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.registration{
+    display: flex;
+    justify-content: flex-end;
+    padding: 58px 90px ;
+}
+.reg{
+    width: 750px;
+}
+
+.reg input{
+   width: 100%;
+   margin-bottom: 20px;
+   padding: 14px;
+   background-color: rgba(218, 214, 214, 0.3);
+   border-radius: 10px;
+
+
+
+}
+.charcho{
+    background-color: black;
+    padding: 24px 130px;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+.charcho h2{
+    color: white;
+    font-size: 36px;
+    font-family: sans-serif;
+
+}
+
+.reg textarea{
+    resize: none;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.reg input[type= "checkbox"]{
+    width: 10%;
+}
+
+.reg input[type="submit"]{
+    background: #01AF8C;
+    cursor: pointer;
+    border: none;
+    border-bottom: 2px solid white;
+}
+
+
+
+.h2{
+    color: white;
+}
+
+.main1{
+    padding-left: 602px;
+    padding-top: 56px;
+    padding-bottom: 100px;
+}
+.act{
+
+    margin-top: 56px;
+    text-align: center;
+    width: 750px;
+    padding: 70px;
+    background-color: black;
+    border-radius: 20px;
+    margin-bottom: 400px;
+
+    color: white; 
+
+}
+
+.act h2 ,p {
+    margin-bottom: 20px;
+}
+
+
+.discount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 750px;
+    height: 70px;
+    background-color: #F5BA22;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    
+   
+}
+.discount p{
+    font-size: 20px;
+    color: white;
+
+   
+}
